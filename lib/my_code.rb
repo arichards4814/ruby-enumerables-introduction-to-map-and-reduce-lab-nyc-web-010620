@@ -24,9 +24,9 @@ def map_to_double(arr)
      i = 0;
     
     while i < arr.length 
-      if arr[i] == false
-         return false
-      end 
+      
+      
+      i += 1
     end
     
     return true
