@@ -65,10 +65,12 @@ def reduce_to_all_true(arr)
   
   
   while i < arr.length
-  total = arr[i] + total;
+    if arr[i] == false
+      return false
+    end
   
   i += 1
   end
   
-  return total
+  return true
 end
