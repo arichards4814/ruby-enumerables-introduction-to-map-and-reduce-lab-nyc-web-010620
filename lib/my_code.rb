@@ -34,7 +34,7 @@ def map_to_double(arr)
       i += 1
     end
     
-    return true
+    return newArray
 end
 
 def map_to_square(arr)
