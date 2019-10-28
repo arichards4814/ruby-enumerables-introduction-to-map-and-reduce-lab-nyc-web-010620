@@ -83,7 +83,7 @@ def reduce_to_any_true(arr)
   i = 0;
   
   while i < arr.length
-    if arr[i] == false
+    if arr[i] == true
       return false
     end
   
