@@ -84,11 +84,11 @@ def reduce_to_any_true(arr)
   
   while i < arr.length
     if arr[i] == true
-      return false
+      return true
     end
   
   i += 1
   end
   
-  return true
+  return false
 end
