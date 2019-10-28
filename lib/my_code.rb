@@ -22,6 +22,7 @@ end
 
 def map_to_double(arr)
      i = 0;
+     newArray = [];
     
     while i < arr.length 
       
