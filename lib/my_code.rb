@@ -29,7 +29,7 @@ def map_to_double(arr)
       if arr[i]
        newArray.push(arr[i] * 2)
        puts newArray
-        i += 1
+        
     end 
       i += 1
     end
