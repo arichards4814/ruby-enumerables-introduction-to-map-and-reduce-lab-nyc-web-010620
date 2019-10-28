@@ -30,7 +30,7 @@ def map_to_double(arr)
        newArray.push(arr[i] * 2)
        puts newArray
         
-    end 
+     end 
       i += 1
     end
     
