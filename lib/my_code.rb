@@ -25,7 +25,11 @@ def map_to_double(arr)
     
     while i < arr.length 
       
-      
+      if arr[i]
+       newArray.push(arr[i] * -1)
+       puts newArray
+        i += 1
+    end 
       i += 1
     end
     
